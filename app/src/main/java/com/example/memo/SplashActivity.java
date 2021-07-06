@@ -21,7 +21,7 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
     protected static ImageView imgTrophy;
     private ImageView imgDelete;
     private Button btnPlay, btnOut;
-    public static int level;
+    protected static int level;
     private MediaPlayer player;
     @SuppressLint("StaticFieldLeak")
     protected static Chronometer splashTime;
@@ -40,8 +40,10 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
         imgTrophy = (ImageView)findViewById(R.id.imgTrophy);
         imgDelete = (ImageView)findViewById(R.id.imgDelete);
         splashTime = (Chronometer) findViewById(R.id.splashTime);
-        time = splashTime.getBase() + time;
-        splashTime.setBase(time);
+        if(level > 0) {
+            time = splashTime.getBase() + time;
+            splashTime.setBase(time);
+        }
         level++;
 
         if(level ==1){
@@ -155,6 +157,7 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
             btnPlay.setBackgroundColor(Color.GRAY);
             player.stop();
 
+
             Intent displaySplash = new Intent(SplashActivity.this, MainActivity.class);
             SplashActivity.this.startActivity(displaySplash);
             SplashActivity.this.finish();
@@ -163,6 +166,7 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
         btnOut.setOnClickListener(v -> {
             btnOut.setBackgroundColor(Color.GRAY);
             player.stop();
+            level = 0;
             SplashActivity.this.finish();
         });
     }
