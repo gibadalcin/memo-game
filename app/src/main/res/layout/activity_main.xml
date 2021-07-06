@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="48sp"
+                android:textColor="#78866b" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.333"
+                    android:layout_marginStart="10sp"
+                    android:backgroundTint="#78866b"
+                    android:background="@drawable/start"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+
+                <Button
+                    android:id="@+id/btnPause"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.333"
+                    android:backgroundTint="#78866b"
+                    android:background="@drawable/pause"
+                    android:layout_marginStart="5sp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/btnReload"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.333"
+                    android:backgroundTint="#78866b"
+                    android:background="@drawable/stop"
+                    android:layout_marginStart="5sp"
+                    style="?android:attr/buttonBarButtonStyle" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button1"
+                tools:ignore="NestedWeights"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button2"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button3"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"  >
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button4"
+                tools:ignore="NestedWeights"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button5"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button6"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"  >
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button7"
+                tools:ignore="NestedWeights"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button8"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button9"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"  >
+
+            <ImageButton
+                android:id="@+id/btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button10"
+                tools:ignore="NestedWeights"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button11"
+                tools:targetApi="lollipop" />
+            <ImageButton
+                android:id="@+id/btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.333"
+                android:backgroundTint="#66000000"
+                android:contentDescription="@string/button12"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

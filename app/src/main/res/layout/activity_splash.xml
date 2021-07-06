@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+       <LinearLayout
+           android:id="@+id/imgSpeaker"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:orientation="horizontal"
+           android:layout_gravity="right"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/speaker"
+           tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/imgDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/delete"
+                android:contentDescription="@string/todo"
+                tools:ignore="ContentDescription"
+                android:visibility="invisible"/>
+       </LinearLayout>
+
+        <ImageView
+            android:id="@+id/spnName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/russel_dog"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/splash"
+            android:textColor="#78866b"
+            android:textSize="60sp" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp">
+
+            <Chronometer
+                android:id="@+id/splashTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="#660000"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/imgTrophy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/trophy"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:id="@+id/imgNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/one"
+                android:visibility="invisible">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/checked"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:text="@string/play"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="#660" />
+            <Button
+                android:id="@+id/btnOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/out"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:background="#660000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="#66000000"
+                android:gravity="center"
+                android:text="@string/copy" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

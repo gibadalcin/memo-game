@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MEmo</string>
+    <string name="todo">TODO</string>
+    <string name="button1"/>
+    <string name="button2"/>
+    <string name="button3"/>
+    <string name="button4"/>
+    <string name="button5"/>
+    <string name="button6"/>
+    <string name="button7"/>
+    <string name="button8"/>
+    <string name="button9"/>
+    <string name="button10"/>
+    <string name="button11"/>
+    <string name="button12"/>
+
+</resources>

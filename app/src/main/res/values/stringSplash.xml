@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash">MEmo</string>
+    <string name="play">Jogar</string>
+    <string name="out">Sair</string>
+    <string name="copy">Copyright - Codartche Digital 2021</string>
+    <string name="goon">Continuar</string>
+    <string name="playagain">Jogar de Novo</string>
+
+</resources>
