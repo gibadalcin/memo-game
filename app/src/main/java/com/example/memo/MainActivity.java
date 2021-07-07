@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     long currentTime;
     private MediaPlayer player;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         btnPause = findViewById(R.id.btnPause);
         Button btnReload = findViewById(R.id.btnReload);
         btnPause.setEnabled(false);
-
 
         reload();
         chooseImages();
@@ -720,7 +721,7 @@ public class MainActivity extends AppCompatActivity {
         chronometer.setBase(SystemClock.elapsedRealtime());
         currentTime = 0;
         stopVoices();
-        restartImages();
+        chooseImages();
     }
 
     protected void finalTest() {
@@ -731,6 +732,7 @@ public class MainActivity extends AppCompatActivity {
             chronometer.stop();
             finalVoices();
             alertBuilder();
+            imageRepository++;
         }
     }
 
@@ -738,13 +740,8 @@ public class MainActivity extends AppCompatActivity {
         Intent displaymain = new Intent(MainActivity.this, SplashActivity.class);
         MainActivity.this.startActivity(displaymain);
         MainActivity.this.finish();
-        imageRepository++;
         currentTime = chronometer.getBase() - SystemClock.elapsedRealtime();
         SplashActivity.time = currentTime;
-
-
-
-
 
         /*AlertDialog.Builder gameAndBuilder = new AlertDialog.Builder(this);
         gameAndBuilder.setCancelable(false);
@@ -772,4 +769,12 @@ public class MainActivity extends AppCompatActivity {
         level = 1;
         MainActivity.this.finish();
     }*/
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        alertBuilder();
+        imageRepository = 0;
+        SplashActivity.level = 0;
+    }
 }

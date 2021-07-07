@@ -26,6 +26,7 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
     @SuppressLint("StaticFieldLeak")
     protected static Chronometer splashTime;
     protected static long time;
+    protected static boolean finished;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +34,15 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
         setContentView(R.layout.activity_splash);
         //Handler handler = new Handler();
         //handler.postDelayed(this,3000);
-        btnPlay = (Button)findViewById(R.id.btnPlay);
-        btnOut = (Button)findViewById(R.id.btnOut);
-        imgNumber = (LinearLayout)findViewById(R.id.imgNumber);
-        imgSpeaker = (LinearLayout) findViewById(R.id.imgSpeaker);
-        imgTrophy = (ImageView)findViewById(R.id.imgTrophy);
-        imgDelete = (ImageView)findViewById(R.id.imgDelete);
-        splashTime = (Chronometer) findViewById(R.id.splashTime);
+        btnPlay = findViewById(R.id.btnPlay);
+        btnOut = findViewById(R.id.btnOut);
+        imgNumber = findViewById(R.id.imgNumber);
+        imgSpeaker = findViewById(R.id.imgSpeaker);
+        imgTrophy = findViewById(R.id.imgTrophy);
+        imgDelete = findViewById(R.id.imgDelete);
+        splashTime = findViewById(R.id.splashTime);
+        finished = true;
+
         if(level > 0) {
             time = splashTime.getBase() + time;
             splashTime.setBase(time);
@@ -279,7 +282,14 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
         }
     }
 
-   /* @Override
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        btnOut.callOnClick();
+        MainActivity.imageRepository = 0;
+    }
+
+    /* @Override
     public void run() {
         Intent displaySplash = new Intent(SplashActivity.this, MainActivity.class);
         SplashActivity.this.startActivity(displaySplash);
