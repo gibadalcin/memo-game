@@ -26,7 +26,6 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
     @SuppressLint("StaticFieldLeak")
     protected static Chronometer splashTime;
     protected static long time;
-    protected static boolean finished;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +40,6 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
         imgTrophy = findViewById(R.id.imgTrophy);
         imgDelete = findViewById(R.id.imgDelete);
         splashTime = findViewById(R.id.splashTime);
-        finished = true;
 
         if(level > 0) {
             time = splashTime.getBase() + time;
@@ -105,7 +103,7 @@ public class SplashActivity extends AppCompatActivity  /*implements Runnable*/ {
             }
         });
 
-        if(level == 9){level = 2;}
+        if(level == 9) level = 2;
 
         switch(level) {
             case 2:
