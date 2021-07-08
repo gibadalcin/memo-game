@@ -42,7 +42,7 @@
   
   + Nível Atual
      + 10- <strong> Time <image src="https://user-images.githubusercontent.com/69020289/124841679-2aa34980-df64-11eb-92e2-b4f3153f38ed.png" width="40px" > :</strong> Exibe o tempo total de duração após o término da partida.
-     + 11- <strong> Nível  <image src="https://user-images.githubusercontent.com/69020289/124841763-6a6a3100-df64-11eb-8be9-788935fa3cbf.png" width="30px" > :</strong> Informa o nível atual alcançado.
+     + 11- <strong> Nível  <image src="https://user-images.githubusercontent.com/69020289/124841763-6a6a3100-df64-11eb-8be9-788935fa3cbf.png" width="30px" > :</strong> Exibe o nível atual da campanha.
      + 12- <strong> Troféu  <image src="https://user-images.githubusercontent.com/69020289/124841813-87066900-df64-11eb-9205-3624851f2a80.png" width="20px" > :</strong> Exibido sempre que um novo nível é alcançado.
   
   
