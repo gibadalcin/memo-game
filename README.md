@@ -20,7 +20,7 @@
 
 | Tela Inicial |  Tela Dinâmica  |    Nível Atual      | Tela Final |
 | -------------| --------------- | ------------------- | -----------|
-| <image src="https://user-images.githubusercontent.com/69020289/124833915-418e6f80-df55-11eb-9d04-eec1781efde2.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124823439-962aee00-df47-11eb-863f-27e4c44e5346.jpg" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124830651-967bb700-df50-11eb-9d71-9a5d1fdb909a.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124831561-c9727a80-df51-11eb-98a5-65339b149d6f.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124833359-76e68d80-df54-11eb-9a22-6de163a58f94.png" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124834686-8ebf1100-df56-11eb-96f1-ce50b140f6d0.png" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124835046-13aa2a80-df57-11eb-9792-591bf6162037.jpg" width="120px" >
+| <image src="https://user-images.githubusercontent.com/69020289/124845730-afdf2c00-df6d-11eb-9f0f-44f26ea40b11.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124823439-962aee00-df47-11eb-863f-27e4c44e5346.jpg" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124845477-32b3b700-df6d-11eb-94ef-2c1f1422db7b.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124845935-254afc80-df6e-11eb-8ab4-ee76ef1f0e59.png" width="120px" > <image src="https://user-images.githubusercontent.com/69020289/124846285-df426880-df6e-11eb-8597-61d58d3f54ab.png" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124846522-5ed03780-df6f-11eb-8a04-7f52e9728595.png" width="120px" > | <image src="https://user-images.githubusercontent.com/69020289/124835046-13aa2a80-df57-11eb-9792-591bf6162037.jpg" width="120px" >
 
 ---
 ### Funcionalidades
@@ -47,11 +47,17 @@
   
   
   + Observações
-    + Sempre que pressinonado o botão nativo <strong>"Back"</strong> do android durante uma partida o jogo retornará para a página principal com os valores zerados e se pressionado novamente enquanto estiver nesta página o aplicativo então é fechado.
+    + Sempre que pressinonado o botão nativo <strong>"Back"</strong> do android durante uma partida o jogo retornará para a página principal com os valores zerados e se pressionado novamente enquanto estiver nesta página o aplicativo então será fechado.
  
   ---
-  
-  ###  
+ 
+ 
+
+
+
+
+
+
   
   
   
