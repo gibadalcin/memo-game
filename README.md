@@ -49,7 +49,7 @@
   
   
   + Observações
-    + Sempre que pressinonado o botão nativo <strong>"Back"</strong> do android durante uma partida o jogo retornará para a página principal com os valores zerados e se pressionado novamente enquanto estiver nesta página o aplicativo então será fechado.
+    + Sempre que pressinonado o botão nativo <strong>"Back"</strong> do android durante uma partida o jogo retornará para a tela inicial com os valores zerados e se pressionado novamente enquanto estiver nesta tela o aplicativo então será fechado.
  
   ---
    
