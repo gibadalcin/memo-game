@@ -17,30 +17,13 @@
 
 ### Layout
 ---
+<div style="display: flex;">
 
 | Tela Inicial |  Tela Dinâmica  |    Nível Atual      | Tela Final |
 | -------------| --------------- | ------------------- | -----------|
 | <image src="https://user-images.githubusercontent.com/69020289/124845730-afdf2c00-df6d-11eb-9f0f-44f26ea40b11.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124823439-962aee00-df47-11eb-863f-27e4c44e5346.jpg" width="100px" > | <image src="https://user-images.githubusercontent.com/69020289/124845477-32b3b700-df6d-11eb-94ef-2c1f1422db7b.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124845935-254afc80-df6e-11eb-8ab4-ee76ef1f0e59.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124846285-df426880-df6e-11eb-8597-61d58d3f54ab.png" width="100px" > | <image src="https://user-images.githubusercontent.com/69020289/124846522-5ed03780-df6f-11eb-8a04-7f52e9728595.png" width="100px" > | <image src="https://user-images.githubusercontent.com/69020289/124835046-13aa2a80-df57-11eb-9792-591bf6162037.jpg" width="100px" >
-
-   
-   
-<table>
-   <thead>
-      <th>Tela Inicial</th>
-      <th>Tela Dinâmica  </th>
-      <th>Nível Atual</th>
-      <th>Tela Final</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td><image src="https://user-images.githubusercontent.com/69020289/124845730-afdf2c00-df6d-11eb-9f0f-44f26ea40b11.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124823439-962aee00-df47-11eb-863f-27e4c44e5346.jpg" width="100px" ></td>
-         <td><image src="https://user-images.githubusercontent.com/69020289/124845477-32b3b700-df6d-11eb-94ef-2c1f1422db7b.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124845935-254afc80-df6e-11eb-8ab4-ee76ef1f0e59.png" width="100px" > <image src="https://user-images.githubusercontent.com/69020289/124846285-df426880-df6e-11eb-8597-61d58d3f54ab.png" width="100px" ></td>
-         <td><image src="https://user-images.githubusercontent.com/69020289/124846522-5ed03780-df6f-11eb-8a04-7f52e9728595.png" width="100px" ></td>
-         <td><image src="https://user-images.githubusercontent.com/69020289/124835046-13aa2a80-df57-11eb-9792-591bf6162037.jpg" width="100px" ></td>
-      </tr>
-      
-   </tbody>
-   </table>
+</div>
+  
 ---
 ### Funcionalidades
   
@@ -69,4 +52,4 @@
     + Sempre que pressinonado o botão nativo <strong>"Back"</strong> do android durante uma partida o jogo retornará para a página principal com os valores zerados e se pressionado novamente enquanto estiver nesta página o aplicativo então será fechado.
  
   ---
- 
+   
